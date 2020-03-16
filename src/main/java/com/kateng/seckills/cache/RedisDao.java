@@ -17,7 +17,7 @@ public class RedisDao {
 
     private RuntimeSchema<Seckill> schema = RuntimeSchema.createFrom(Seckill.class);
 
-
+    //just do it
     public Seckill getSeckill(long seckillId) {
         // redis操作逻辑
         try {
